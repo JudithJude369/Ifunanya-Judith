@@ -1,0 +1,60 @@
+import projects from "@/data/data.json";
+import { FiExternalLink } from "react-icons/fi";
+
+const Projects = () => {
+  return (
+    <main className="pt-10 pb-8 bg-neutral-900 text-[#FFFFFF] flex flex-col items-center  px-4 ">
+      <h1 className="text-2xl bg-gradient-to-b from-[#FF8660] to-[#8000FF] bg-clip-text text-transparent font-extrabold uppercase">
+        projects
+      </h1>
+      {/* projects */}
+      <article className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-8 mt-8 px-4">
+        {projects.map((project) => {
+          const { id, name, image, description, liveUrl, githubUrl } = project;
+          return (
+            <div
+              key={id}
+              className="max-w-[350px] rounded-xl  overflow-hidden shadow-3xl hover:transition-all cursor-pointer hover:shadow-2xl h-full"
+            >
+              {/* Image */}
+
+              <img
+                src={image}
+                alt={name}
+                className=" aspect-square object-fill"
+              />
+
+              {/* Content */}
+              <div className="p-4 bg-[#222222]">
+                <h2 className="text-2xl font-extrabold mb-2">{name}</h2>
+                <p className="text-gray-400 mb-4">{description}</p>
+
+                {/* Links */}
+                <div className="flex gap-4 flex-wrap">
+                  <a
+                    href={liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 text-blue-500 hover:underline"
+                  >
+                    <FiExternalLink /> Live Site
+                  </a>
+                  <a
+                    href={githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 text-blue-500 hover:underline"
+                  >
+                    <FiExternalLink /> View Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </article>
+    </main>
+  );
+};
+
+export default Projects;

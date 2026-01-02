@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Great Vibes", cursive;
+  --font-body: "Be Vietnam Pro", sans-serif;
+}

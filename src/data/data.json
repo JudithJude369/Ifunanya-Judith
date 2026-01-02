@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Careers",
+    "image": "/images/job-application-website.jpeg",
+    "description": "A React-based application for exploring global remote job opportunities with live listings powered by the Remotive API.",
+    "liveUrl": "https://careers-steel.vercel.app",
+    "githubUrl": "https://github.com/JudithJude369/Careers"
+  },
+  {
+    "id": 2,
+    "name": "UnsplashBox",
+    "image": "/images/unsplash-collection-box.jpeg",
+    "description": "A modern React application that uses the Unsplash API to search, save, organize, and delete images.",
+    "liveUrl": "https://unsplash-collection-two.vercel.app/",
+    "githubUrl": "https://github.com/JudithJude369/Unsplash-Collection"
+  },
+  {
+    "id": 3,
+    "name": "IP Address Tracker",
+    "image": "/images/ip-address-tracker.jpeg",
+    "description": "An IP address tracking app that displays location details such as country, city, and ISP on an interactive map.",
+    "liveUrl": "https://ip-address-tracker-psi-tawny.vercel.app/",
+    "githubUrl": "https://github.com/JudithJude369/IP-Address-Tracker"
+  },
+  {
+    "id": 4,
+    "name": "Tip Calculator",
+    "image": "/images/tip-calculator.jpeg",
+    "description": "A simple web app that helps users calculate tips and split bills based on service quality.",
+    "liveUrl": "https://tip-calculator-flax-nine.vercel.app/",
+    "githubUrl": "https://github.com/JudithJude369/Tip-Calculator"
+  }
+]
