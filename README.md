@@ -1,7 +1,7 @@
-## Personal Portfolio Website
+# Personal Portfolio Website
 
 
-# My personal portfolio website showcasing selected projects, skills, and experience as a Front-End Developer.  
+My personal portfolio website showcasing selected projects, skills, and experience as a Front-End Developer.  
 Built to present my work, learning journey, and passion for building clean, responsive web applications.
 ---
 
@@ -32,7 +32,7 @@ Built to present my work, learning journey, and passion for building clean, resp
 - Components are modular and reusable
 - Styling handled entirely with Tailwind CSS
 
-```
+
 ## 📸 Screenshots
 
 ![portfolio-website](https://github.com/user-attachments/assets/d661b6c6-7abc-44fd-981b-40d2e4c4f883)
