@@ -8,20 +8,20 @@ const Projects = () => {
         projects
       </h1>
       {/* projects */}
-      <article className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-8 mt-8 px-4">
+      <article className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-8 mt-8 px-4 max-w-3xl ">
         {projects.map((project) => {
           const { id, name, image, description, liveUrl, githubUrl } = project;
           return (
             <div
               key={id}
-              className="max-w-[350px] rounded-xl  overflow-hidden shadow-3xl hover:transition-all cursor-pointer hover:shadow-2xl h-full"
+              className="rounded-xl w-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl group cursor-pointer"
             >
               {/* Image */}
 
               <img
                 src={image}
                 alt={name}
-                className=" aspect-square object-fill"
+                className="object-fill aspect-square  transition-transform duration-300 group-hover:scale-105"
               />
 
               {/* Content */}

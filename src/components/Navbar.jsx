@@ -5,6 +5,7 @@ import { IoIosCode } from "react-icons/io";
 import { IoBriefcaseOutline } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -90,16 +91,22 @@ const Navbar = () => {
               <p className="font-heading">connect with me</p>
               <article className="flex gap-4 items-center text-xl">
                 <a
-                  href="https://github.com/JudithJude369?tab=repositories"
-                  className=" hover:bg-blue-500 p-2 hover:shadow hover:rounded-[50%]"
-                >
-                  <FaGithub />
-                </a>
-                <a
                   href=" https://www.linkedin.com/in/ifunanya-mmeremikwu/"
                   className=" hover:bg-blue-500 p-2 hover:shadow hover:rounded-[50%]"
                 >
                   <FaLinkedinIn />
+                </a>
+                <a
+                  href="https://x.com/JudithJ08832378"
+                  className=" hover:bg-blue-500 p-2 hover:shadow hover:rounded-[50%]"
+                >
+                  <FaXTwitter />
+                </a>
+                <a
+                  href="https://github.com/JudithJude369?tab=repositories"
+                  className=" hover:bg-blue-500 p-2 hover:shadow hover:rounded-[50%]"
+                >
+                  <FaGithub />
                 </a>
               </article>
             </div>

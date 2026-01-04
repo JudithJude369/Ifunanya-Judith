@@ -1,4 +1,4 @@
-import ifyImg from "@/assets/judith.jpg";
+import ifyImg from "@/assets/judith-jude.png";
 import popcornImg from "@/assets/popcorn.gif";
 import { BiLogoJavascript } from "react-icons/bi";
 import { FaReact, FaCss3Alt } from "react-icons/fa";
@@ -29,17 +29,20 @@ const HomePage = () => {
 
       {/* short story */}
       <div className=" max-w-4xl px-6 text-gray-400 items-center flex flex-col gap-6">
-        <div>
-          <p className="text-center">
+        <div className="text-center">
+          <p>
             I’m a passionate front-end developer with a strong foundation in
             HTML, CSS, JavaScript, and React. I enjoy building clean, modern,
             and user-friendly web applications that are visually appealing and
             functional. I focus on creating responsive designs, smooth
             animations, and intuitive user experiences while following best
-            practices in web development. I’m actively expanding my skills in
-            TypeScript and Next.js to grow as a versatile front-end developer.
-            I’m eager to contribute to dynamic teams, where I can continue
-            learning and building impactful applications.
+            practices in web development.
+          </p>
+          <p className="mt-4">
+            I’m actively expanding my skills in TypeScript and Next.js to grow
+            as a versatile front-end developer. I’m eager to contribute to
+            dynamic teams, where I can continue learning and building impactful
+            applications.
           </p>
         </div>
         <a
@@ -53,31 +56,31 @@ const HomePage = () => {
       <article className="flex flex-col items-center mt-12 gap-3 px-4">
         <h2 className="uppercase font-bold text-2xl">tech stack</h2>
         <div className=" flex-wrap flex items-center flex-col lg:flex-row md:flex-row gap-4">
-          <p className="flex items-center gap-1 text-[#FFFFFF] py-2 px-10 rounded-2xl shadow-2xl border-2 font-bold">
+          <p className="flex items-center gap-1 text-[#FFFFFF] py-2 px-8 rounded-2xl  border-[0.1px] border-gray-500 font-bold">
             <span>
               <DiHtml5 />
             </span>
             HTML
           </p>
-          <p className="flex items-center gap-1 text-[#FFFFFF] py-2 px-10 rounded-2xl shadow-2xl border-2 font-bold">
+          <p className="flex items-center gap-1 text-[#FFFFFF] py-2 px-10 rounded-2xl border-[0.1px] border-gray-500 font-bold">
             <span>
               <FaCss3Alt />
             </span>
             CSS
           </p>
-          <p className="flex items-center gap-1 text-[#FFFFFF] py-2 px-10 rounded-2xl shadow-2xl border-2 font-bold">
+          <p className="flex items-center gap-1 text-[#FFFFFF] py-2 px-4 rounded-2xl border-[0.1px] border-gray-500 font-bold">
             <span>
               <RiTailwindCssFill />
             </span>
             Tailwind CSS
           </p>
-          <p className="flex items-center gap-1 text-[#FFFFFF] py-2 px-10 rounded-2xl shadow-2xl border-2 font-bold">
+          <p className="flex items-center gap-1 text-[#FFFFFF] py-2 px-5 rounded-2xl border-[0.1px] border-gray-500 font-bold">
             <span>
               <BiLogoJavascript />
             </span>
             JavaScript
           </p>
-          <p className="flex items-center gap-1 text-[#FFFFFF] py-2 px-10 rounded-2xl shadow-2xl border-2 font-bold">
+          <p className="flex items-center gap-1 text-[#FFFFFF] py-2 px-10 rounded-2xl border-[0.1px] border-gray-500 font-bold">
             <span>
               <FaReact />
             </span>

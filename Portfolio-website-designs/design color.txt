@@ -1,8 +1,0 @@
-FF8660 - gradent1
-8000FF - gradient2
-FFFFFF - white
-E6E6E6
-5BADFF - blue
-222222 - navbar
-projects - FF8660
-bg-neutral-900 - background-color
