@@ -1,16 +1,76 @@
-# React + Vite
+## Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# My personal portfolio website showcasing selected projects, skills, and experience as a Front-End Developer.  
+Built to present my work, learning journey, and passion for building clean, responsive web applications.
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- Responsive, mobile-first design
+- Project showcase with live demos and source code links
+- Clean and accessible UI
+- Optimized layout 
+- Smooth hover interactions
+- Simple and focused content 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **Vite**
+- **React Icons**
+
+---
+
+## 📁 Project Structure
+
+- Projects data is stored in a local `data.json` file
+- Components are modular and reusable
+- Styling handled entirely with Tailwind CSS
+
+```
+## 📸 Screenshots
+
+![portfolio-website](https://github.com/user-attachments/assets/d661b6c6-7abc-44fd-981b-40d2e4c4f883)
+
+---
+
+🌐 [Live Site URL](https://ifunanya-judith.vercel.app/)
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/JudithJude369/Ifunanya-Judith.git
+
+# 2️⃣ Navigate into the project directory
+cd ifunanya-judith
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Run the development server
+npm run dev
+```
+
+Then open http://localhost:5173/
+in your browser 🚀
+
+
+🧑‍💻 Author
+
+👩‍💻 Ifunanya Mmeremikwu
+
+💼 LinkedIn: [ifunanya Mmeremikwu](https://www.linkedin.com/in/ifunanya-mmeremikwu/)
+
+🌟 GitHub: JudithJude369
+
+⭐ Support
+
+If you find this project helpful, please consider starring ⭐ the repo — it helps others discover it and motivates me to keep building awesome projects!
