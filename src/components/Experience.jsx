@@ -2,7 +2,7 @@ const Experience = () => {
   return (
     <main className="pt-10 pb-8 bg-neutral-900 text-white flex flex-col items-center px-4">
       {/* Section title */}
-      <h1 className="text-2xl text-blue-500 font-extrabold uppercase mb-8">
+      <h1 className="text-2xl text-white font-extrabold uppercase mb-8">
         Experience
       </h1>
 

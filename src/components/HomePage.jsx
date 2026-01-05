@@ -34,9 +34,8 @@ const HomePage = () => {
             I’m a passionate front-end developer with a strong foundation in
             HTML, CSS, JavaScript, and React. I enjoy building clean, modern,
             and user-friendly web applications that are visually appealing and
-            functional. I focus on creating responsive designs, smooth
-            animations, and intuitive user experiences while following best
-            practices in web development.
+            functional. I focus on creating responsive designs, and intuitive
+            user experiences while following best practices in web development.
           </p>
           <p className="mt-4">
             I’m actively expanding my skills in TypeScript and Next.js to grow

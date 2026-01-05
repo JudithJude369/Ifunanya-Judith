@@ -4,9 +4,7 @@ import { FiExternalLink } from "react-icons/fi";
 const Projects = () => {
   return (
     <main className="pt-10 pb-8 bg-neutral-900 text-[#FFFFFF] flex flex-col items-center  px-4 ">
-      <h1 className="text-2xl bg-gradient-to-b from-[#FF8660] to-[#8000FF] bg-clip-text text-transparent font-extrabold uppercase">
-        projects
-      </h1>
+      <h1 className="text-2xl text-white font-extrabold uppercase">projects</h1>
       {/* projects */}
       <article className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-8 mt-8 px-4 max-w-3xl ">
         {projects.map((project) => {
