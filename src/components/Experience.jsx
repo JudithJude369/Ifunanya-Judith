@@ -10,34 +10,36 @@ const Experience = () => {
       <article className="flex flex-col items-start ">
         <div className="flex flex-col items-center gap-4 mb-4">
           <h4 className="text-xl font-bold uppercase">
-            Front-End Developer Intern
+            Freelance Frontend Developer
           </h4>
         </div>
 
         {/* Achievements / bullets */}
         <ul className="list-disc list-inside space-y-2 text-left text-gray-400 px-4">
-          <p className="text-blue-500 text-xl font-bold">HNG Internship </p>
-          <p className="text-gray-400">Sep 2025 – Dec 2025</p>
-
+          <p className="text-gray-400">Sep 2023 – Present</p>
           <li>
-            Learned and applied React, JavaScript, and CSS to build small
-            projects.
+            Engineered a full-scale Job Board & Filtering Platform using React
+            and Tailwind CSS, prioritizing modular architecture to support
+            future feature scaling and high-volume data handling.
           </li>
           <li>
-            Developed personal projects inspired by internship tasks to
-            strengthen front-end skills.
+            Architected a dynamic search and routing system that manages complex
+            datasets, ensuring sub-second response times for user queries across
+            mobile and desktop interfaces.
           </li>
           <li>
-            Gained experience in component-based architecture, responsive
-            design, and best coding practices.
+            Developed a custom Digital Management System for a local educational
+            service, digitizing manual processes and creating a mobile-first
+            interface for client engagement.
           </li>
           <li>
-            Explored modern tools and workflows used in front-end development
-            (GitHub, Git, etc.).
+            Built and deployed high-converting landing pages for various
+            clients, optimizing for core web vitals and ensuring 100%
+            cross-browser compatibility.
           </li>
           <li>
-            Continued learning and building projects post-internship to prepare
-            for professional opportunities.
+            Managed the full deployment lifecycle using Git, GitHub, and Vercel,
+            maintaining a 99.9% uptime for all client-facing applications.
           </li>
         </ul>
       </article>
