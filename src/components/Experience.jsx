@@ -16,7 +16,7 @@ const Experience = () => {
 
         {/* Achievements / bullets */}
         <ul className="list-disc list-inside space-y-2 text-left text-gray-400 px-4">
-          <p className="text-gray-400">Sep 2023 – Present</p>
+          <p className="text-gray-400">March 2025 – Present</p>
           <li>
             Engineered a full-scale Job Board & Filtering Platform using React
             and Tailwind CSS, prioritizing modular architecture to support
