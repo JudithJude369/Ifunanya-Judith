@@ -5,6 +5,7 @@ import { FaReact, FaCss3Alt } from "react-icons/fa";
 import { DiHtml5 } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 
 const HomePage = () => {
   return (
@@ -33,11 +34,11 @@ const HomePage = () => {
         <div className="text-center">
           <p>
             I’m a passionate front-end developer with a strong foundation in
-            HTML, CSS, JavaScript, Typescript and React. I enjoy building clean,
-            modern, and user-friendly web applications that are visually
-            appealing and functional. I focus on creating responsive designs,
-            and intuitive user experiences while following best practices in web
-            development.
+            HTML, CSS, JavaScript, Typescript, React and Nextjs. I enjoy
+            building clean, modern, and user-friendly web applications that are
+            visually appealing and functional. I focus on creating responsive
+            designs, and intuitive user experiences while following best
+            practices in web development.
           </p>
           <p className="mt-4">
             I’m actively expanding my skills in Next.js to grow as a versatile
@@ -91,6 +92,12 @@ const HomePage = () => {
               <FaReact />
             </span>
             React
+          </p>
+          <p className="flex items-center gap-1 text-[#FFFFFF] py-2 px-10 rounded-2xl border-[0.1px] border-gray-500 font-bold">
+            <span>
+              <RiNextjsFill />
+            </span>
+            Nextjs
           </p>
         </div>
       </article>
