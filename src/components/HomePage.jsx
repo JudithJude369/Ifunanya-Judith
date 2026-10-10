@@ -1,4 +1,4 @@
-import ifyImg from "@/assets/ifunanya.png";
+import ifyImg from "@/assets/ify.png";
 import popcornImg from "@/assets/popcorn.gif";
 import { BiLogoJavascript } from "react-icons/bi";
 import { FaReact, FaCss3Alt } from "react-icons/fa";
